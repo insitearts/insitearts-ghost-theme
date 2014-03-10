@@ -1,7 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-} 
+}
 /* Basic Typography */
 html, body {
 	height: 100%;
@@ -38,7 +38,7 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Bree Serif", serif;
+	font-family: "Open Sans", serif;
 	font-weight: 400 !important;
 }
 h1 {
@@ -51,13 +51,13 @@ h2 {
 	font-size:1.9em;
 	line-height: 1.2em;
 	margin-top: 0.7em;
-	margin-bottom: 0.7em;	
+	margin-bottom: 0.7em;
 }
 h3 {
 	font-size:1.4em;
 	line-height: 1.3em;
 	margin-top: 0.8em;
-	margin-bottom: 0.8em;	
+	margin-bottom: 0.8em;
 }
 h4 {
 	font-size:1.3em;
@@ -94,7 +94,7 @@ hr{
 	background: #eee;
 }
 ul, ol {
-	margin-left: 3em; 
+	margin-left: 3em;
 }
 code {
 	font-size:1.4em;
@@ -118,7 +118,7 @@ header h1 {
 }
 header h1 a {
 	color:#444;
-}  
+}
 header h1 a:hover {
 	text-decoration:none;
 }
@@ -132,7 +132,7 @@ header h6 {
 }
 /* Posts */
 article span.post-stamp {
-	color:#888;     
+	color:#888;
 }
 h1.post-title {
 	margin-top:0.35em;
@@ -157,7 +157,7 @@ footer a {
 	font-weight:300;
 	color:#888;
 	text-decoration: underline;
-} 
+}
 footer a:hover {
 	color:#444;
 	text-decoration: none;
@@ -166,10 +166,10 @@ footer a:hover {
 @media only screen and (min-width: 1281px) {
 	html, body {
 		font-size: 1.1em;
-	} 
+	}
 }
 /* Small Screens */
-@media only screen and (max-width: 800px) { 
+@media only screen and (max-width: 800px) {
 	header {
 		border-right: none;
 		border-bottom: 1px #eee solid;
@@ -187,7 +187,7 @@ footer a:hover {
 	}
 }
 /* Tiny Screens */
-@media only screen and (max-width: 320px) { 
+@media only screen and (max-width: 320px) {
 	header {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}
