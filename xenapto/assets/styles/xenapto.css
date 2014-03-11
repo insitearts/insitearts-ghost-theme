@@ -174,7 +174,8 @@ header .btn {
 }
 
 header .btn:hover {
-	background:#80B637 !important
+	text-decoration: none solid;
+	background:#80B637 !important;
 }
 
 /* Posts */
