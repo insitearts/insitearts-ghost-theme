@@ -38,8 +38,8 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Open Sans", serif;
-	font-weight: 400 !important;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600 !important;
 }
 h1 {
 	font-size: 2.5em;
@@ -75,7 +75,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #5cc265; /* Change Link Color */
+	color: #80B637; /* Change Link Color */
 }
 a:hover {
 	text-decoration:underline;
@@ -130,6 +130,21 @@ header #logo img {
 header h6 {
 	margin-top:0.5em;
 }
+
+header .btn {
+	color:#59585A;
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff), color-stop(100%, #f8fbfc));
+	background-image:-webkit-linear-gradient(#fff, #f8fbfc);
+	background-image:-moz-linear-gradient(#fff, #f8fbfc);
+	background-image:-o-linear-gradient(#fff, #f8fbfc);
+	background-image:linear-gradient(#ffffff,#f8fbfc);
+	border:1px solid #DCDDDE
+}
+
+header .btn:hover {
+	background:#FFF !important
+}
+
 /* Posts */
 article span.post-stamp {
 	color:#888;
