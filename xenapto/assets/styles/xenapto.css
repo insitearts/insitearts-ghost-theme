@@ -132,13 +132,27 @@ header h6 {
 }
 
 header .btn {
-	color:#59585A;
-	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff), color-stop(100%, #f8fbfc));
-	background-image:-webkit-linear-gradient(#fff, #f8fbfc);
-	background-image:-moz-linear-gradient(#fff, #f8fbfc);
-	background-image:-o-linear-gradient(#fff, #f8fbfc);
-	background-image:linear-gradient(#ffffff,#f8fbfc);
-	border:1px solid #DCDDDE
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.25);
+	-moz-box-sizing: border-box;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.25);
+	-webkit-box-sizing: border-box;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.25);
+	box-sizing: border-box;
+
+	background-color: #5bb65b;
+	border: 1px solid #DCDDDE;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	min-height: 0;
+	padding: 5px 20px 8px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	vertical-align: middle
 }
 
 header .btn:hover {
